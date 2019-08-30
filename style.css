@@ -1,0 +1,73 @@
+body{
+	color: white;
+	background-image:url("land.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	transform: scale(1);
+}
+
+.logo{
+	width: 50px;
+	margin-left: 25px;
+}
+
+.form{
+  position: absolute;
+  color: white;
+
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 200px;
+  margin-right: 150px;
+}
+
+.name{
+  position: absolute;
+  color: white;
+
+  right: 0px;
+  margin-right: 250px;
+  font-size: 35px;
+}
+
+.about{
+  position: absolute;
+  color: white;
+
+  right: 0px;
+  margin-right: 250px;
+  font-size: 15px;
+  margin-top: 50px;
+}
+
+.login{
+	background: none;
+	border: none;
+	width: 250px;
+
+  	border-bottom: 2px solid;
+  	border-color: #0AEFA1;
+  	padding-left: 188px ; 
+  	padding-bottom: 10px;
+}
+
+.pass{
+	background: none;
+	border: none;
+	width: 250px;
+	padding-top: 10px;
+  	padding-left: 180px ;
+}
+
+.lbutton{
+	position: absolute;
+	border: none;
+	height: 25px;
+	width: 90px;
+  	right: 0px;
+  	margin-top: 30px;
+  	margin-right: 60px;
+  	background-color: #0AEFA1;
+
+}
