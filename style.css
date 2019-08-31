@@ -1,9 +1,21 @@
-body{
+.studentBody{
 	color: white;
 	background-image:url("land2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
-	transform: scale(1);
+	transform: scale(1.25);
+	padding:100px;
+	padding-left: 150px;
+}
+
+.teacherBody{
+	color: white;
+	background-image:url("land2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	transform: scale(1.25);
+	padding:100px;
+	padding-left: 150px;
 }
 
 .logo{
@@ -20,6 +32,7 @@ body{
   padding: 10px;
   margin-top: 200px;
   margin-right: 150px;
+  
 }
 
 .name{
@@ -71,3 +84,17 @@ body{
   	background-color: #0AEFA1;
 
 }
+
+input:focus { 
+	background: none;
+	border: none;
+	color: white;
+	margin: 0px;
+	outline: none;
+  }
+
+  input:active { 
+	background: none;
+	border: none;
+	outline: none;
+  }
