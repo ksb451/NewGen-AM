@@ -16,11 +16,10 @@
 		<img  src="logo.svg" alt="Logo" width="50px">
 	</div>
 	<div class="name">
-		Sexy
-		Name
+		Student Login
 	</div>
 	<div class="about">
-		Doo dood odood odood
+		Welcome back
 	</div>
 
     <form class="form" action="backend/login_student.php" method="POST">
