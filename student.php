@@ -11,7 +11,7 @@
     <title>Teacher login</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="studentBody">
 	<div class="logo">
 		<img  src="logo.svg" alt="Logo" width="50px">
 	</div>
