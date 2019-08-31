@@ -9,12 +9,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
-<body>
+<body class="teacher_menu_body">
+    
+
+    <header>
+        <div class="logo">
+            <img src="">
+        </div>
+    </header>
+
     <?php
-        $ran = rand(10000, 99999);   
-        $url = "attendance.php?random=".$ran."?name=".$_SESSION['name'];
+
+        $sql = "SELECT * FROM subject_detail WHERE name='$_SESSION[username]'";
+        $result = mysqli_query($conn, $sql);
+        $resultCheck = mysqli_num_rows($result);
+        if($resultCheck < 1){
+            // header("Location: ../index.php?login=error");
+            echo "error";
+        }
+        else{
+            while($row =  mysqli_fetch_assoc($result)){
+                echo "<a href='qrcode.php?code=".$row['subcode']."&sec=".$row['sec']."'><div>
+                        <div>"
+                        .$row['subcode'].
+                        "</div>
+                    </div></a>";
+            }
+        }
+
     ?>
-    <a href="backend/log_out.php">Log Out</a>
-    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=<?php echo $url?>" alt="qrcode">
+
 </body>
 </html>
