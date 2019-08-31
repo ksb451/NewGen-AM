@@ -34,3 +34,7 @@ VALUES ('rkala', 'DBMS', 'A', 5008, 1, 1, 1, 0 , 0);
 
 INSERT INTO subject_detail (name, subcode, sec, room, m, t, w, th, f) 
 VALUES ('rkala', 'ITP', 'C', 5007, 1, 1, 1, 0 , 1);
+
+
+
+CREATE TABLE iec2018063( id int(11) AUTO_INCREMENT PRIMARY KEY, LAL INT(2) NOT NULL, ITP INT(2) NOT NULL, POM INT(2) NOT NULL, PFC INT(2) NOT NULL, FEE INT(2) NOT NULL, PHY INT(2) NOT NULL, t DATETIME )
