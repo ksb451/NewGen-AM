@@ -16,11 +16,10 @@
 		<img  src="logo.svg" alt="Logo" width="50px">
 	</div>
 	<div class="name">
-		Sexy
-		Name
+		Teacher Login
 	</div>
 	<div class="about">
-		Doo dood odood odood
+		Welcome back
 	</div>
     <form class="form" action="backend/login_teacher.php" method="POST">
         <input class="login" type="text" name="email" placeholder="Email...">
