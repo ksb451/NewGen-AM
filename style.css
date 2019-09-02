@@ -163,17 +163,15 @@ input:focus {
 
 .indexButtons a:link, .indexButtons a:visited, .indexButtons a:hover, .indexButtons a:active { color:#ffffff;  text-decoration: none; font-weight: bold; font-size: 30px; }
 
-.name{
+.name1{
+	font-size: 30px;
 	position: absolute;
 	color: white;
 	margin-top: -40px;
 	margin-left: 240px;
 	left: 0px;
 	width: 300px;
-
-	
-
-
+}
 .teacher_menu_body{
 	background-image: url("images/bg2.jpg");
 	background-repeat: cover;

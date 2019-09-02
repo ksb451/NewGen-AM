@@ -10,7 +10,7 @@
     <div class="logo">
 		<img  src="logo.svg" alt="Logo" >
     </div>
-    <div class="name">
+    <div class="name1">
             ASISTENCIA
     </div>
 
