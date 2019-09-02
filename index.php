@@ -4,11 +4,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Attendance Portal</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
-    <button><a href="teacher.php">Teacher Login</a></button>
-    <button><a href="student.php">Student Login</a></button>
+<body class="indexBody">
+    <div class="logo">
+		<img  src="logo.svg" alt="Logo" >
+    </div>
+    <div class="name">
+            ASISTENCIA
+    </div>
+
+    <div class="indexButtons">
+
+    <button class="tlogin"><a href="teacher.php">TEACHER</a></button>
+    <button class="slogin"><a href="student.php">STUDENT</a></button>
+    </div>
 
 </body>
 </html>

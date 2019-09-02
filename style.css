@@ -1,73 +1,202 @@
-body{
+.studentBody{
 	color: white;
-	background-image:url("land.jpg");
+	background-image:url("land2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
-	transform: scale(1);
+}
+
+.indexBody{
+
+	color: white;
+	background-image:url("bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	/* text-align: center; */
+}
+
+
+.teacherBody{
+	color: white;
+	background-image:url("land2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
 }
 
 .logo{
-	width: 50px;
-	margin-left: 25px;
+	padding: 10px;
+}
+.logo span{
+	padding: 5px;
 }
 
-.form{
-  position: absolute;
-  color: white;
+.product{
+	/* position: absolute; */
+	color: white;
+	font-size: 35px;
+	letter-spacing: 4px;
+	padding-top: -10px; 
+	/* line-height: 10px; */
+  }
 
-  right: 0px;
-  width: 300px;
-  padding: 10px;
-  margin-top: 200px;
-  margin-right: 150px;
+  .form-box{
+	text-align: right;
+	padding: 220px;
+	padding-top: 100px;
 }
 
-.name{
-  position: absolute;
-  color: white;
+  .form{
+	color: white;
+	padding: 20px;
+  }
 
-  right: 0px;
-  margin-right: 250px;
-  font-size: 35px;
-}
+  .head{
+	/* position: absolute; */
+	color: white;
+	/* margin-right: 250px; */
+	font-size: 45px;
+	letter-spacing: 1px;
+  }
 
-.about{
-  position: absolute;
-  color: white;
+  .about{
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+  }
 
-  right: 0px;
-  margin-right: 250px;
-  font-size: 15px;
-  margin-top: 50px;
-}
+  .email input, .password input{
+	  padding: 15px;
+	  width: 300px;
+	  background: transparent;
+	  color: white;
+	  border: none;
+	  font-size: 16px;
+  }
+  .email input::placeholder, .password input::placeholder{
+	  text-align: right;
+  }
+  .email input:active, .password input:active{
+	background: transparent;
+  }
+  .email input:focus, .password input:focus{
+	  outline: none;
+  }
 
-.login{
-	background: none;
-	border: none;
-	width: 250px;
-
-  	border-bottom: 2px solid;
-  	border-color: #0AEFA1;
-  	padding-left: 188px ; 
-  	padding-bottom: 10px;
-}
-
-.pass{
-	background: none;
-	border: none;
-	width: 250px;
-	padding-top: 10px;
-  	padding-left: 180px ;
-}
+  .active{
+	  border-bottom: #0AEFA1 solid 2px !important;
+  }
 
 .lbutton{
-	position: absolute;
+	/* position: absolute; */
 	border: none;
-	height: 25px;
-	width: 90px;
-  	right: 0px;
-  	margin-top: 30px;
-  	margin-right: 60px;
+	border-radius: 4px;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 10px;
+	width: 100px;
   	background-color: #0AEFA1;
+}
+  
 
+.logo1{
+	width: 25px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-left: 200px;
+}
+
+  .indexButtons{
+	/* position: relative; */
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: 50px;
+
+	/* top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%); */
+
+  }
+
+  .tlogin{
+	width: 250px;
+	
+	height: 250px;
+	border: none;
+	margin: 30px;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #BABCBB 0%, rgba(244, 245, 245, 0) 100%);
+  }
+
+  .slogin{
+	width: 250px;
+	
+	height: 250px;
+	border: none;
+	margin: 80px;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #BABCBB 0%, rgba(244, 245, 245, 0) 100%);
+	  
+}
+
+.indexButtons a:link, .indexButtons a:visited, .indexButtons a:hover, .indexButtons a:active { color:#ffffff;  text-decoration: none; font-weight: bold; font-size: 30px; }
+
+.name{
+	/* position: absolute; */
+	color: white;
+	/* margin-top: -40px;
+	margin-left: 240px;
+	left: 0px;
+	width: 300px; */
+}
+
+.teacher_menu_body{
+	background-image: url("images/bg2.jpg");
+	background-repeat: cover;
+}
+
+.card{
+	width: 240px;
+	height: 240px;
+	background: linear-gradient(180deg, #0AEFA1 0%, rgba(10, 239, 161, 0) 100%);
+	display: inline-block;
+	margin: 120px;
+	color: white;
+	text-align: center;
+	font-family: sans-serif;
+}
+
+.subcode{
+	color: white;
+	font-weight: bold;
+	padding: 30px;
+}
+.card a{
+	text-decoration: none;
+	font-size: 35px;
+}
+.classes_no{
+	padding: 10px;
+}
+
+.qrcode_body{
+	background-color: black;
+}
+.qrcontainer{
+	width: 400px;
+	height: 400px;
+	/* position: absolute; */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #000000;
+	box-shadow: 0px 0px 74px rgba(10, 239, 161, 0.22);
+	/*padding: 50px;*/
+	padding-top: 100px;
+	padding-left: 100px;
 }
