@@ -3,6 +3,7 @@
 	background-image:url("land2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
+<<<<<<< HEAD
 }
 
 .indexBody{
@@ -20,6 +21,62 @@
 	background-image:url("land2.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
+=======
+	transform: scale(1.25);
+	padding:100px;
+	padding-left: 150px;
+}
+
+.indexBody{
+
+	color: white;
+	background-image:url("bg4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	transform: scale(1.25);
+	padding:100px;
+	padding-left: 150px;
+	/* text-align: center; */
+}
+
+
+.teacherBody{
+	color: white;
+	background-image:url("land2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover; 
+	transform: scale(1.25);
+	padding:100px;
+	padding-left: 150px;
+}
+
+.logo{
+	width: 30px;
+	margin-left: 25px;
+}
+
+.logo1{
+	width: 25px;
+	
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-left: 200px;
+}
+
+.form{
+  position: absolute;
+  color: white;
+
+  right: 0px;
+  width: 300px;
+  padding: 10px;
+  margin-top: 200px;
+  margin-right: 150px;
+  
+>>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
 }
 
 .logo{
@@ -146,6 +203,7 @@
 
 .indexButtons a:link, .indexButtons a:visited, .indexButtons a:hover, .indexButtons a:active { color:#ffffff;  text-decoration: none; font-weight: bold; font-size: 30px; }
 
+<<<<<<< HEAD
 .name{
 	/* position: absolute; */
 	color: white;
@@ -155,6 +213,73 @@
 	width: 300px; */
 }
 
+=======
+}
+
+input:focus { 
+	background: none;
+	border: none;
+	color: white;
+	margin: 0px;
+	outline: none;
+  }
+
+  input:active { 
+	background: none;
+	border: none;
+	outline: none;
+  }
+
+
+  .indexButtons{
+	/* position: relative; */
+	color: white;
+	width: 800px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin-left: 50px;
+
+	/* top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%); */
+
+  }
+
+  .tlogin{
+	width: 250px;
+	
+	height: 250px;
+	border: none;
+	margin: 30px;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #BABCBB 0%, rgba(244, 245, 245, 0) 100%);
+  }
+
+  .slogin{
+	width: 250px;
+	
+	height: 250px;
+	border: none;
+	margin: 80px;
+	border-radius: 5px;
+	background: linear-gradient(180deg, #BABCBB 0%, rgba(244, 245, 245, 0) 100%);
+	  
+}
+
+.indexButtons a:link, .indexButtons a:visited, .indexButtons a:hover, .indexButtons a:active { color:#ffffff;  text-decoration: none; font-weight: bold; font-size: 30px; }
+
+.name1{
+	font-size: 30px;
+	position: absolute;
+	color: white;
+	margin-top: -40px;
+	margin-left: 240px;
+	left: 0px;
+	width: 300px;
+}
+>>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
 .teacher_menu_body{
 	background-image: url("images/bg2.jpg");
 	background-repeat: cover;
@@ -190,7 +315,11 @@
 .qrcontainer{
 	width: 400px;
 	height: 400px;
+<<<<<<< HEAD
 	/* position: absolute; */
+=======
+	position: absolute;
+>>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);

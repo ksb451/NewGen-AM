@@ -43,11 +43,13 @@
 </head>
 <body>
     <a href="backend/log_out.php">Log Out</a>
-    <input type=text class=qrcode-text>
-    <label class=qrcode-text-btn>
-        <input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1>
-    </label>
-
+    <form method="POST" action="go.php">
+        <input name="ujjwal" type=text class=qrcode-text>
+        <label class=qrcode-text-btn>
+            <input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1>
+        </label>
+        <button type="submit" name="GO"></button>
+    </form>
         <script>
             function openQRCamera(node) {
             var reader = new FileReader();
