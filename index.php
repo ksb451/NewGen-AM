@@ -10,7 +10,11 @@
     <div class="logo">
 		<img  src="logo.svg" alt="Logo" >
     </div>
+<<<<<<< HEAD
+    <div class="name">
+=======
     <div class="name1">
+>>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
             ASISTENCIA
     </div>
 
