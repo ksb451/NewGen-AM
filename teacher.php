@@ -13,7 +13,6 @@
 </head>
 <body class="teacherBody">
     <div class="logo">
-<<<<<<< HEAD
         <span class="logo_img"><img  src="logo.svg" alt="Logo" width="50px"></span>
         <span class="product">
             ASISTENCIA
@@ -37,21 +36,5 @@
             <button class="lbutton" type="submit" name="login">Log In</button>
         </form>
     </div>
-=======
-		<img  src="logo.svg" alt="Logo" width="50px">
-	</div>
-	<div class="name">
-		Teacher Login
-	</div>
-	<div class="about">
-		Welcome back
-	</div>
-    <form class="form" action="backend/login_teacher.php" method="POST">
-        <input class="login" type="text" name="email" placeholder="Email...">
-        <input class="pass" type="password" name="password" placeholder="Password...">
-        <br>
-        <button class="lbutton" type="submit" name="login">Log In</button>
-    </form>
->>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
 </body>
 </html>

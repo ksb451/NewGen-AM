@@ -13,20 +13,10 @@
 </head>
 <body class="studentBody">
 	<div class="logo">
-<<<<<<< HEAD
         <span class="logo_img"><img  src="logo.svg" alt="Logo" width="50px"></span>
         <span class="product">
             ASISTENCIA
         </span>
-=======
-		<img  src="logo.svg" alt="Logo" width="50px">
-	</div>
-	<div class="name">
-		Student Login
-	</div>
-	<div class="about">
-		Welcome back
->>>>>>> 05edfc1fe1c09447fca563efee8503c2068505e1
 	</div>
     
     <div class="form-box">
